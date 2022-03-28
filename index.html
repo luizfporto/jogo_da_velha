@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="imagens/jogo-da-velha.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+      <h1><img src="imagens/jogo-da-velha.png" alt="imagem jogo da velha" width="60px" height="60px"> Jogo da Velha</h1>
+    </main>
+    <section>
+      <div>
+        <div id="1" class="quadrado" onclick="escolherQuadrado(this.id)">-</div>
+        <div id="2" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+        <div id="3" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+      </div>
+      <div>
+        <div id="4" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+        <div id="5" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+        <div id="6" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+      </div>
+      <div>
+        <div id="7" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+        <div id="8" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+        <div id="9" class="quadrado" onclick="escolherQuadrado(id)">-</div>
+      </div>
+    </section>
+    <section>
+      <div class="jogador">
+        <label> Jogador: </label>
+        <label id="jogador-selecionado"> </label>
+      </div>
+      <div class="vencedor">
+        <label for=""> Vencedor: </label>
+        <label for="" id="vencedor-selecionado"> </label>
+      </div>
+      <div>
+        <button onclick="reiniciar()">Reiniciar</button>
+      </div>
+    </section>
+    <footer>
+      <p><b>Desenvolvido por Luiz F. Porto</b></p>
+      <a href="https://www.flaticon.com/br/icones-gratis/jogo-da-velha" title="jogo da velha ícones">Jogo da velha ícones criados por Freepik - Flaticon</a>
+    </footer>
+  </body>  
+  <script src="main.js"></script>
+</html>

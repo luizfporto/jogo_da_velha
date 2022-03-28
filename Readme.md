@@ -30,4 +30,4 @@ No modo básico do jogo, participam duas pessoas, que jogam alternadamente, pree
 [Código Javascript](/imagens/js.png)
 
 ## Link
-[]()
+[Site hospedado](https://meu-jogodavelha.netlify.app/)

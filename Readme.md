@@ -9,7 +9,7 @@ Foi Acrescentado por mim, o modo responsivo para rodar em aparelhos mobile.
 ## Para rodar o Projeto
 
 Para executarmos o projeto, basta apenas abrir o arquivo index.html em um navegador de sua preferência.
-Ganha o jogador
+
 
 ## Modo de jogar
 
